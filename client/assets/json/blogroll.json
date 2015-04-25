@@ -1,0 +1,30 @@
+[
+    {
+        "title": "EventedMind",
+        "link": "http://www.eventedmind.com"
+    },
+    {
+        "title": "Badass JavaScript",
+        "link": "http://www.badassjs.com"
+    },
+    {
+        "title": "Meteor",
+        "link": "http://www.meteor.com"
+    },
+    {
+        "title": "NCZOnline",
+        "link": "http://www.nczonline.net"
+    },
+    {
+        "title": "Crockford",
+        "link": "http://www.javascript.crockford.com"
+    },
+    {
+        "title": "How to Node",
+        "link": "http://www.howtonode.org"
+    },
+    {
+        "title": "Oaklandjs",
+        "link": "http://www.oaklandjs.com"
+    }
+]

@@ -1,0 +1,117 @@
+.font-size-18 {
+    font-size: 18px;
+}
+
+nav a {
+    padding: 20px 50px !important;
+    font-size: 18px;
+    color:white;
+    font-weight: 100 !important;
+    text-decoration:none !important;
+}
+
+nav a:hover {
+    color:orange;
+}
+nav a:visited {
+    color:white;
+}
+
+nav a i {
+    color:white;
+}
+
+h1 {
+    font-family: 'News Gothic FS', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h2, .attribution-tags {
+    font-family: Helvetica Neue, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+}
+
+h1 a,
+#pagination a,
+.exposed-nav-wrapper li a,
+.sub-title,
+.search-header {
+    color: #444444;
+}
+
+h1, h2, h4, h5, h6, p, a , li, input {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+h3 {
+    color:red;
+    font-family: "Trebuchet MS" !important;
+    font-weight: 700;
+    border-bottom:1px solid black;
+    padding-bottom: 6px;
+    font-size: 12px;
+    
+}
+.cursive {
+    font-family: 'Shadows Into Light', cursive !important;
+    text-align:justify;
+    color:black;
+}
+
+.quote {
+    text-decoration:none !important;
+    float:right;
+    color:black !important;
+    font-size: 14px !important;   
+}
+
+i {
+    margin: 0 10px;
+    
+}
+
+
+.links {
+    border-top: 1px solid #A9A9A9;  
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.links a {
+    color:black;           
+    font-size: 14px;
+    text-decoration: none !important;
+    color:black !important;
+}
+
+.links a:hover {
+    text-decoration:none !important;
+    
+}
+
+
+.links li {
+    list-style-type:none;           
+    border-bottom: 1px solid #A9A9A9;
+    padding-left: 20px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align:middle;
+    text-align:left;
+}
+
+.links li:before {
+    font-family: 'FontAwesome';     
+    content: '\f105';               
+    margin:0 5px 0 -15px;           
+    color: #B8B8B8;
+}
+
+.links li:hover {
+    background-color: #E5E5E5;      
+}
+
+.links li:hover:before {
+    color: red !important;
+}
+

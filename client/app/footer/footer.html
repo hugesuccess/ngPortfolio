@@ -1,0 +1,37 @@
+<div class="footer margin-top-50" ng-controller="FooterCtrl">
+    <div class="row">
+        <div class="col-sm-4 footer-box margin-top-10">
+            <h5 class="margin-bottom-10">Bogroll</h5>
+
+            <ul class="links">
+                <a ng-repeat="blog in blogroll" ng-href="{{blog.link}}" target="_blank"><li>{{blog.title}}</li></a>
+            </ul>
+        </div>
+
+        <div class="col-sm-4 footer-box margin-top-10">
+            <h5 class="margin-bottom-10">Previously...</h5>
+
+            <ul class="links"> 
+                <a ng-repeat="link in links" ng-href="{{link.url}}" target="_blank"><li>{{link.title}}</li></a>
+            </ul>  
+        </div>
+
+        <div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 footer-box">
+
+            <h5 class="margin-bottom-10">Ambient Intelligence</h5>
+            <p class="cursive font-size-18"><i class="fa fa-quote-left"></i>{{quote.body}}<i class="fa fa-quote-right"></i></p>
+
+            <a ng-href="{{quote.link}}" class="quote">{{quote.author}}</a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 text-right">
+            <p>Created with ng-portfolio. View the github repo. <a href="https://github.com/hugesuccess/ngPortfolio" class="btn btn-default"><i class="fa fa-github"></i>ngPortfolio</a></p>
+        </div>
+    </div>
+</div>
+

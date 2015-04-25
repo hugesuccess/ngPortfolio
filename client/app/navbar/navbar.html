@@ -1,0 +1,22 @@
+<nav id="menu" class="panel mobile-nav" role="navigation" ng-controller="NavbarCtrl">
+    <ul>
+        <li ng-repeat="item in navigation"><a ng-click="close()" ng-href="{{item.link}}" class="mobile-navigation"><i class="{{item.icon}}"></i></a></li>
+    </ul>
+</nav>
+
+<div class="container-fluid" ng-controller="NavbarCtrl">
+
+    <header>
+        <hr class="font-weight-500 black">
+        <a href="/home"><img src="assets/images/huge_success.png" class="margin-bottom-10" width="200px" /></a>
+        <img src="assets/images/banner.jpg" class="width-100 margin-top-10">
+    </header>
+
+    <nav class="width-100 black margin-top-10 margin-bottom-50">
+        <a href="/home" class="visible-xs menu-link"><i class="fa fa-angle-double-left"></i></a>
+        <a ng-href="{{item.link}}" class="hidden-xs" ng-repeat="item in navigation">{{item.title}}</a>
+    </nav>
+
+    <div ng-view="" class="fade"></div>
+
+</div>

@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Home",
+        "url": "/"
+    },
+    {
+        "title": "About",
+        "url": "/"
+    },
+    {
+        "title": "Tutor",
+        "url": "/tutoring"
+    },
+    {
+        "title": "Contact",
+        "url": "/contact"
+    }
+]
