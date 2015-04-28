@@ -67,7 +67,7 @@ angular.module('hugesuccessApp')
     ];
     return {
         all: function(page, cb) {
-            return projs;
+            return cb(null, projs);
             /*
             $http.get("assets/json/projects.json", {cache: true})
                 .error(function(err) {
