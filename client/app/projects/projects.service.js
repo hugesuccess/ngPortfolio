@@ -3,8 +3,7 @@
 angular.module('hugesuccessApp')
   .service('projects', function ($http, $sce) {
     // AngularJS will instantiate a singleton by calling "new" on this function
-    return {
-        projects: [
+    var projects = [
         {
             "id": 1,
             "title": "TEN Teaching",
@@ -65,9 +64,10 @@ angular.module('hugesuccessApp')
             ],
             "description": "<h1>This is injected HTML</h1>"
         }
-    ],
+    ];
+    return {
         all: function(page, cb) {
-            return this.projects;
+            return projects;
             /*
             $http.get("assets/json/projects.json", {cache: true})
                 .error(function(err) {
