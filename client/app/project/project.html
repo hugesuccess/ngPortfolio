@@ -2,17 +2,17 @@
 
     <div class="col-xs-10 col-xs-offset-1">
 
-        <h4>{{project.title}}</h4>
+        <h4 ng-cloak>{{project.title}}</h4>
 
         <hr />
 
-        <div ng-bind-html="project.description"></div>
+        <div ng-bind-html="project.description" ng-cloak></div>
 
     </div>
 
     <div class="col-xs-8 col-xs-offset-2">
 
-        <a href="{{project.url}}" class="btn btn-default">View {{project.title}}</a>
+        <a href="{{project.url}}" class="btn btn-default" ng-cloak>View {{project.title}}</a>
 
     </div>
 
