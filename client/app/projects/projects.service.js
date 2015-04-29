@@ -80,9 +80,7 @@ angular.module('hugesuccessApp')
         getOne: function(id, cb) {
             var res = projs[id - 1];
             res.description = $sce.trustAsHtml(res.description);
-            window.setTimeout(function() {
-                return cb(null, res)
-            }, 0);
+            return cb(null, res)
             /*$http.get("assets/json/projects.json", {cache: true})
                 .error(function(err) {
                     return cb(err, null);
