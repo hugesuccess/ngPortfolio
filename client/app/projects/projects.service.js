@@ -5,18 +5,6 @@ angular.module('hugesuccessApp')
     // AngularJS will instantiate a singleton by calling "new" on this function
     var projs = [
         {
-            "id": 1,
-            "title": "TEN Teaching",
-            "url": "http://www.10teaching.net",
-            "images": [
-                {
-                    "id": 1,
-                    "url": "images/ten-logo.png"
-                }
-            ],
-            "description": "<h1>This is injected HTML</h1>"
-        },
-        {
             "id": 2,
             "title": "theblocks",
             "url": "http://www.theblocks.tv",
