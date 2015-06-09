@@ -5,20 +5,24 @@ angular.module('hugesuccessApp')
     // AngularJS will instantiate a singleton by calling "new" on this function
     var lks =[
         {
+            "title": "TEN Teaching",
+            "url": "http://www.10teaching.net"
+        },
+        {
+            "title": "DEVLabs",
+            "url": "http://devla.bs/"
+        },
+        {
+            "title": "Vibosity",
+            "url": "http://www.vibosity.com/"
+        },
+        {
             "title": "Microsoft Office Tips & Tricks",
             "url": "https://www.microsoft.com/southafrica/newsletters/examples/officett_april.htm"
         },
         {
             "title": "Microsoft Office Sharepoint Server",
             "url": "https://msdn.microsoft.com/en-us/library/office/dn833469"
-        },
-        {
-            "title": "Microsoft Office 2008",
-            "url": "https://products.office.com/en-US/"
-        },
-        {
-            "title": "Microsoft Office UC",
-            "url": "https://products.office.com/en-us/home"
         },
         {
             "title": "Coors Light",
