@@ -14,7 +14,7 @@ angular.module('hugesuccessApp')
                     "url": "images/theblocks.gif"
                 }
             ],
-            "description": "<h1>Watch videos from your desktop or mobile device.</h1><p>theblocks is an experiment in signaling servers. Navigate to theblocks from your desktop and mobile device simultaneously, to use your mobile phone as a remote control and select songs from a constantly updating new stream of the latest edm, hip-hop, house  and dance music videos hand chosen by some of the most interesting people on the internet.</p>"
+            "description": "<h1>This is injected HTML</h1>"
         },
         {
             "id": 3,
