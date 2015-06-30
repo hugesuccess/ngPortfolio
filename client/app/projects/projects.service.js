@@ -4,6 +4,7 @@ angular.module('hugesuccessApp')
   .service('projects', function ($http, $sce) {
     // AngularJS will instantiate a singleton by calling "new" on this function
     var projs = [
+        {},
         {
             "id": 2,
             "title": "theblocks",
