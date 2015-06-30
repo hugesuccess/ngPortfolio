@@ -67,7 +67,9 @@ angular.module('hugesuccessApp')
                 });*/
         },
         getOne: function(id, cb) {
-            var res = projs[id - 1];
+            var res = _.filter(projs, function(pro) {
+                return pro.id == id;
+            })[0];
             res.description = $sce.trustAsHtml(res.description);
             return cb(null, res)
             /*$http.get("assets/json/projects.json", {cache: true})
